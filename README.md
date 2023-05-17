@@ -39,4 +39,10 @@ sudo lsof -i -P -n | grep LISTEN
 
 sudo nano /etc/ssh/sshd_config
 
+PasswordAuthentication yes
 
+PermitRootLogin yes
+
+Port 443
+
+Port 22
