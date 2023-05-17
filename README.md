@@ -37,6 +37,6 @@ sudo lsof -i -P -n | grep LISTEN
 
 
 
-
+sudo nano /etc/ssh/sshd_config
 
 
